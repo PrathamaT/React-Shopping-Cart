@@ -1,0 +1,16 @@
+.sort_panel {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sort_panel {
+    flex-direction: column;
+  }
+}
+
+.bold_text {
+  color: #167a80;
+  font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.products__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex;
+    justify-content: center;
+    border: 1px solid rgba(243, 237, 237, 0.609);
+    border-radius: 4px;
+    margin: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out 0s;
+  }
