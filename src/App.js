@@ -57,7 +57,6 @@ function App() {
   };
 
   const sortProducts = (condition) => {
-    console.log("cond: ", condition);
     switch (condition) {
       case "most_relevant":
         removeFilter();
