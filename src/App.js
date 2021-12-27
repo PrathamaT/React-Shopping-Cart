@@ -102,7 +102,7 @@ function App() {
         removeFilter={removeFilter}
         sortProducts={sortProducts}
       />
-      <ProductsWrapper products={products}></ProductsWrapper>
+      <ProductsWrapper products={products}> </ProductsWrapper>
     </div>
   );
 }
